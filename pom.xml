@@ -23,13 +23,19 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
             </plugin>
+         </plugins>
+    
+    </build>
 
-            <plugin>
+    
+</project>
+
+            <!-- <plugin>
                 <groupId>org.codehaus.mojo</groupId>
                 <artifactId>exec-maven-plugin</artifactId>
                 <version>3.1.0</version>
                 <executions>
-                    <!-- npm run build -->
+
                     <execution>
                         <id>build-react</id>
                         <goals>
@@ -69,11 +75,6 @@
                         </configuration>
                     </execution>
                 </executions>
-            </plugin>
+            </plugin> -->
 
-        </plugins>
-    
-    </build>
 
-    
-</project>
