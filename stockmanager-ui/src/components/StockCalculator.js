@@ -61,7 +61,7 @@ function StockCalculator() {
               <label for="extraUnitsPercent">Extra Units (%): </label>
               <input type="number" className="form-control" id="extraUnitsPercent" placeholder="Extra Units" value={extraUnitsPercent} onChange={e => setExtraUnitsPercent(e.target.value)} />
             </div>
-            <button type="submit" className='btn btn-primary'>Calculate</button>
+            <button type="submit" className='btn btn-success'>Calculate</button>
           </form>
           <p id="result"></p>
         </div>
