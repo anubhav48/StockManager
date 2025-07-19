@@ -33,9 +33,6 @@ function StockCalculator() {
       document.getElementById('result').textContent = `🎯 Target Buy-Back Price: ₹${targetPrice.toFixed(2)}`;
     }
 
-
-  
-
   return (
     <>
       <div className="card m-3">
